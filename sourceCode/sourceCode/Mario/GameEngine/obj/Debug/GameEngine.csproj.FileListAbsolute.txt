@@ -1,0 +1,9 @@
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\GameEngine.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\GameEngine.pdb
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\sfmlnet-audio-2.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\sfmlnet-graphics-2.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\sfmlnet-system-2.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\bin\Debug\sfmlnet-window-2.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\obj\Debug\GameEngine.csproj.CoreCompileInputs.cache
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\obj\Debug\GameEngine.dll
+D:\Documenten\GitHub\Mario-C#\sourceCode\sourceCode\Mario\GameEngine\obj\Debug\GameEngine.pdb
