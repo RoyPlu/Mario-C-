@@ -168,10 +168,11 @@
   },
   "libraries": {
     "MSTest.TestAdapter/1.1.17": {
-      "sha512": "ouTNf2Hjp3jbGAUlWae9j4WRJBCIhnlT79BjIdeAhbBQXunl372kFRRGvFxbEFITAHXKiE8YteYXMTflLq/rYQ==",
+      "sha512": "/MseZZ6gwcuwabYdHIntQD33tpMQYe0kVhiMhXCOaDoZKKuoBoC9Srn/70zS0+08P+vkzR4yhA1T/njUwFtVOA==",
       "type": "package",
       "path": "mstest.testadapter/1.1.17",
       "files": [
+        ".signature.p7s",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
@@ -227,10 +228,11 @@
       ]
     },
     "MSTest.TestFramework/1.1.17": {
-      "sha512": "qZQlOVXsCSgEXPQ9TRkIeJYxuprquUiWWoOGNw6emOhQrKcOCIh8++vwJv5xyksb/kt8ZnHQ8wDJuJVcJ7gKNw==",
+      "sha512": "GRNnYipBo6T16oR0WaxpE7Kz7mqZk8z1IbCOJ2jXlFD6RLLw/L2OPqRaZ3vWDXO7CHk1NtuhglYGZXVDD+/g8g==",
       "type": "package",
       "path": "mstest.testframework/1.1.17",
       "files": [
+        ".signature.p7s",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
@@ -345,24 +347,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RoyPl\\.nuget\\packages\\": {},
+    "C:\\Users\\11500384\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\Mario.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\Mario.Tests.csproj",
       "projectName": "Mario.Tests",
-      "projectPath": "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\Mario.Tests.csproj",
-      "packagesPath": "C:\\Users\\RoyPl\\.nuget\\packages\\",
-      "outputPath": "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\obj\\",
+      "projectPath": "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\Mario.Tests.csproj",
+      "packagesPath": "C:\\Users\\11500384\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\Mario.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\RoyPl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\11500384\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -376,11 +378,11 @@
       "frameworks": {
         "net45": {
           "projectReferences": {
-            "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\GameEngine\\GameEngine.csproj": {
-              "projectPath": "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\GameEngine\\GameEngine.csproj"
+            "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\GameEngine\\GameEngine.csproj": {
+              "projectPath": "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\GameEngine\\GameEngine.csproj"
             },
-            "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\Mario\\Mario.csproj": {
-              "projectPath": "D:\\Documenten\\GitHub\\Mario-C#\\sourceCode\\sourceCode\\Mario\\Mario\\Mario.csproj"
+            "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\Mario\\Mario.csproj": {
+              "projectPath": "C:\\Users\\11500384\\Documents\\GitHub\\Mario-Csharp\\sourceCode\\sourceCode\\Mario\\Mario\\Mario.csproj"
             }
           }
         }

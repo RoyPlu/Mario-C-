@@ -19,7 +19,7 @@ namespace GameEngine
         public GameObject(string Title)
         {
             // Initialize values
-            _window = new RenderWindow(new VideoMode(1024u, 768u), Title, Styles.Default);
+            _window = new RenderWindow(new VideoMode(1024u, 768u), Title, Styles.Close);
 
             _window.SetVisible(true);
             _window.SetVerticalSyncEnabled(true);
