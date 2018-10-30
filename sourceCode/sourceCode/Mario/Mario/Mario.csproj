@@ -157,7 +157,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="resources\01-main-theme-overworld.wav">
+    <Content Include="resources\01-main-theme-overworld.flac">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="resources\blank.png">
@@ -277,36 +277,16 @@
     <Content Include="resources\sm-mario-sprites.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="resources\smb_bump.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_coin.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_flagpole.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_gameover.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_jump-small.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_mariodie.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_pause.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_stomp.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_warning.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="resources\smb_world_clear.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="resources\smb_bump.flac" />
+    <Content Include="resources\smb_coin.flac" />
+    <Content Include="resources\smb_flagpole.flac" />
+    <Content Include="resources\smb_gameover.flac" />
+    <Content Include="resources\smb_jump-small.flac" />
+    <Content Include="resources\smb_mariodie.flac" />
+    <Content Include="resources\smb_pause.flac" />
+    <Content Include="resources\smb_stomp.flac" />
+    <Content Include="resources\smb_warning.flac" />
+    <Content Include="resources\smb_world_clear.flac" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

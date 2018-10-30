@@ -1,17 +1,17 @@
 ﻿<?xml version='1.0'?>
 <levelData>
   <sounds>
-    <sound name='music-1' res='01-main-theme-overworld.wav'></sound>
-    <sound name='smallJumpSound' res='smb_jump-small.wav'></sound>
-    <sound name='mariodie' res='smb_mariodie.wav'></sound>
-    <sound name='goalsound' res='smb_world_clear.wav'></sound>
-    <sound name='stomp' res='smb_stomp.wav'></sound>
-    <sound name='coin' res='smb_coin.wav'></sound>
-    <sound name='bump' res='smb_bump.wav'></sound>
-    <sound name='flagpole' res='smb_flagpole.wav'></sound>
-    <sound name='pause' res='smb_pause.wav'></sound>
-    <sound name='warning' res='smb_warning.wav'></sound>
-    <sound name='gameover' res='smb_gameover.wav'></sound>
+    <sound name='music-1' res='01-main-theme-overworld.flac'></sound>
+    <sound name='smallJumpSound' res='smb_jump-small.flac'></sound>
+    <sound name='mariodie' res='smb_mariodie.flac'></sound>
+    <sound name='goalsound' res='smb_world_clear.flac'></sound>
+    <sound name='stomp' res='smb_stomp.flac'></sound>
+    <sound name='coin' res='smb_coin.flac'></sound>
+    <sound name='bump' res='smb_bump.flac'></sound>
+    <sound name='flagpole' res='smb_flagpole.flac'></sound>
+    <sound name='pause' res='smb_pause.flac'></sound>
+    <sound name='warning' res='smb_warning.flac'></sound>
+    <sound name='gameover' res='smb_gameover.flac'></sound>
   </sounds>
   <tiles width='64' height='64'>
     <tile id='0' background='true' />
