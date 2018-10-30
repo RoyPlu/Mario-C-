@@ -94,8 +94,32 @@ namespace GameEngine
                         this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.LEFT);
                     }
                 }
+                else
+                {
+                    switch (Facing)
+                    {
+                        case Direction.NONE:
+                            this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.NONE);
+                            break;
+                        case Direction.RIGHT:
+                            this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.RIGHT);
+                            break;
+                        case Direction.LEFT:
+                            this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.LEFT);
+                            break;
+                    }
 
-                if (!IsMoving)
+                    /*if (Facing == Direction.NONE)
+                        this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.NONE);
+
+                    if (Facing == Direction.RIGHT)
+                        this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.RIGHT);
+
+                    if (Facing == Direction.LEFT)
+                        this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.LEFT);*/
+                }
+
+                /*if (!IsMoving)
                 {
                     if (Facing == Direction.NONE)
                         this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.NONE);
@@ -105,7 +129,7 @@ namespace GameEngine
 
                     if (Facing == Direction.LEFT)
                         this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.LEFT);
-                }
+                }*/
 
                 if (Velocity != 0 && Facing == Direction.RIGHT)
                 {
@@ -134,7 +158,32 @@ namespace GameEngine
 
         public virtual void OnCharacterCollision(CharacterEntity e, Direction d)
         {
-            if (d == Direction.DOWN)
+
+            switch (d)
+            {
+                case Direction.DOWN:
+                    e.Y = this.Y - e.sprite.TextureRect.Height;
+                    e.IsJumping = false;
+                    e.Velocity = 0;
+
+                    if (e.IsPlayer)
+                        if (!Keyboard.IsKeyPressed(Keyboard.Key.Left) && !Keyboard.IsKeyPressed(Keyboard.Key.Right))
+                            e.IsMoving = false;
+                    break;
+                case Direction.LEFT:
+                    e.X = this.X - this.sprite.TextureRect.Width;
+                    e.IsJumping = false;
+                    e.Velocity = 0;
+                    break;
+
+                case Direction.RIGHT:
+                    e.X = this.X + this.sprite.TextureRect.Width;
+                    e.IsJumping = false;
+                    e.Velocity = 0;
+                    break;
+            }
+
+            /*if (d == Direction.DOWN)
             {
                 e.Y = this.Y - e.sprite.TextureRect.Height;
                 e.IsJumping = false;
@@ -158,7 +207,7 @@ namespace GameEngine
                 e.X = this.X + this.sprite.TextureRect.Width;
                 e.IsJumping = false;
                 e.Velocity = 0;
-            }
+            }*/
 
             if (d != Direction.DOWN && d != Direction.UP && e.IsPlayer == false)
             {
