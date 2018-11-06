@@ -30,6 +30,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mario.Tests", "Mario.Tests\Mario.Tests.csproj", "{83A19860-0952-4E47-860D-AE104CFA661E}"
 EndProject
 Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -51,19 +54,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GameEngine\\GameEngine.csproj
-		SccProjectName1 = GameEngine
-		SccLocalPath1 = GameEngine
-		SccProjectUniqueName2 = Mario\\Mario.csproj
-		SccProjectName2 = Mario
-		SccLocalPath2 = Mario
-		SccProjectUniqueName3 = Mario.Tests\\Mario.Tests.csproj
-		SccProjectName3 = Mario.Tests
-		SccLocalPath3 = Mario.Tests
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A91A248-896E-4928-B4BB-6C742F523D86}
 	EndGlobalSection
 EndGlobal

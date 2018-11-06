@@ -75,23 +75,23 @@ namespace GameEngine
 
                 if (IsMoving)
                 {
-                    if (Facing == Direction.RIGHT)
+                    switch (Facing)
                     {
-                        X = X + Acceleration;
-
-                        this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.RIGHT);
-                    }
-
-                    if (Facing == Direction.LEFT)
-                    {
-                        if (!AllowOffscreen)
-                        {
-                            if (X > 0) X = X + Acceleration;
-                        }
-                        else
+                        case Direction.RIGHT:
                             X = X + Acceleration;
+                            this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.RIGHT);
+                            break;
+                        case Direction.LEFT:
+                            if (!AllowOffscreen)
+                            {
+                                if (X > 0) X = X + Acceleration;
+                            }
+                            else
+                                X = X + Acceleration;
 
-                        this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.LEFT);
+                            this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.LEFT);
+                            break;
+
                     }
                 }
                 else
@@ -108,6 +108,25 @@ namespace GameEngine
                             this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.LEFT);
                             break;
                     }
+
+                    /*if (Facing == Direction.RIGHT)
+                    {
+                        X = X + Acceleration;
+
+                        this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.RIGHT);
+                    }
+
+                    if (Facing == Direction.LEFT)
+                    {
+                        if (!AllowOffscreen)
+                        {
+                            if (X > 0) X = X + Acceleration;
+                        }
+                        else
+                            X = X + Acceleration;
+
+                        this.sprite.TextureRect = EntitySpriteSheet.GetNextSprite(Direction.LEFT);
+                    }*/
 
                     /*if (Facing == Direction.NONE)
                         this.sprite.TextureRect = EntitySpriteSheet.GetFirstSprite(Direction.NONE);
